@@ -41,10 +41,10 @@ if(isset($_POST['client']) && isset($_POST['adress']) && isset($_POST['tel']) &&
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="hello.kaddi1995@gmail.com";//email here
-	$mail->Password="kaddismailPA155007";//Password here
-	$mail->SetFrom("hello.kaddi1995@gmail.com");//email here
-	$mail->addAddress("hello.kaddi1995@gmail.com");//email here
+	$mail->Username="";//email here
+	$mail->Password="";//Password here
+	$mail->SetFrom("");//email here
+	$mail->addAddress("");//email here
 	$mail->IsHTML(true);
 	$mail->Subject="order client ";//Subject
 	$mail->Body=$html;
